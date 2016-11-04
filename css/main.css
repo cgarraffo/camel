@@ -44,6 +44,19 @@ footer {
     padding:0;
   }
 
+header, .full-width {
+  background:url(../faintyoung.jpg) no-repeat top center #fff; 
+  color:#505050; 
+  width: 100%;
+  background: #ccc;
+}
+.wrap {
+  width: 80%;
+  max-width: 24em;
+  margin: 0 auto;
+  padding: 0.25em 0.625em;
+}
+
 /*top menu*/
 
 #menu {
