@@ -1,6 +1,6 @@
 body {
-    margin: 0px auto;
-    width: 100%;
+    margin: 60px auto;
+    width: 70%;
 }
 
 nav ul, footer ul {
@@ -39,9 +39,8 @@ footer {
 #header {
     background:url(../faintyoung.jpg) no-repeat top center #fff; 
     color:#505050; 
-    height:400px; 
-    width:1300px;	
-    margin:-10 -10 -10 -10; 
+    height:400px; 	
+    margin:0 0 0 0; 
     padding:0;
   }
 
