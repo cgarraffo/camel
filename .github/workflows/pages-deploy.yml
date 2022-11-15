@@ -4,6 +4,7 @@ on:
     branches:
       - main
       - master
+      - temp_website
     paths-ignore:
       - .gitignore
       - README.md
