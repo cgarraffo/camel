@@ -11,7 +11,7 @@ and for building the right team of experts in all disciplines relevant to each r
 We work with the community to assess the needs and potential of using machine learning and artificial intelligence resources,
 and respond by developing and adapting methodologies that apply to astrophysical problems across astrophysics research areas.
 We achieve this by building strong interdisciplinary collaborations with,
-and drawing resources and expertise from, the rich Boston area computer science community.
+and drawing resources and expertise from the rich Boston area computer science community.
 
 ## People
 Cecilia Garraffo;
