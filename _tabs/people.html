@@ -50,7 +50,10 @@ order: 2
         img = default_img;
       }
       
-      const image_path = `{{ site.baseurl }}/assets/images/${img}`;
+      /** URL for offline
+       * const image_path = `{{ site.baseurl }}/assets/images/${img}`;
+       * URL for online */
+      const image_path = `assets/images/${img}`;
 
       /** Allows people to be displayed in columns */
       div.setAttribute('class', 'column');
