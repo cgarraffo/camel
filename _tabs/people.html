@@ -1,0 +1,87 @@
+---
+icon: fas fa-user
+order: 2
+---
+
+<head>
+  <script>
+    // Default image if image is left blank
+    const default_img = 'blank.png';
+
+    // People who are affiliated with the website
+    // Columns are name, image file name & title - affiliation
+    const people = [
+      ['Cecilia Garraffo',           'CeciliaGarraffo.jpeg',    'Astrophysicist - CFA'],
+      ['J. Rafael Martinez Galarza', 'Rafael-Martinez.jpeg',    'Astrophysicist - CFA'],
+      ['Phillip Cargile',            'PhillCargile.jpeg',       'Astrophysicist - CFA'],
+      ['Joshua Wing',                '',                        'Astrophysicist - CFA'],
+      ['James F. Steiner',           '',                        'Astrophysicist - CFA'],
+      ['Vinay Kashyap',              '',                        'Astrophysicist - CFA'],
+      ['Aneta Siemiginowska',        '',                        'Astrophysicist - CFA'],
+      ['Lindy Blackburn',            '',                        'Astrophysicist - CFA, EHT'],
+      ['Peter K. G. Williams',       'PeterWilliams.jpeg',      'Innovation Scientist - CFA, AAS'],
+      ['Douglas Finkbeiner',         'Doug-Finkbeiner.jpeg',    'Professor - Harvard University'],
+      ['Rosane Di Stefano',          '',                        'Senior Astrophysicist - CFA'],
+      ['Adam Foster',                '',                        'Scientist'],
+      ['Avi Loeb',                   'AviL.jpg',                'Professor - Harvard University'],
+      ['Morgan MacLeod',             '',                        'Postdoctoral Fellow - CFA'],
+      ['Ethan Tregidga',             'Ethan Tregidga.jpg',      "Master's Student - University of Southampton"],
+      ['V. Samuel Perez Diaz',       '',                        "Master's Student"],
+      ['Floor Broekgaarden',         'Floor-Broekgaarden.jpeg', 'PhD Student - CFA'],
+      ['Edo Berger',                 '',                        'Professor - Harvard University'],
+    ];
+
+    /**
+     * Adds HTML to display a person with name, image & position/affiliation
+     * @param {String} name The name of the person
+     * @param {String} image The image file name
+     * @param {String} position The position - affiliation of the person
+     */
+    function add_person(name, img, position) {
+      // Initialize HTML elements
+      const div = document.createElement('div');
+      const name_element = document.createElement('h2');
+      const image_element = document.createElement('img');
+      const name_text = document.createTextNode(name);
+
+      // If there is no image file name, give default image file name
+      if (!img) {
+        img = default_img;
+      }
+      
+      const image_path = `{{ site.baseurl }}/assets/images/${img}`;
+
+      // Allows people to be displayed in columns
+      div.setAttribute('class', 'column');
+
+      name_element.appendChild(name_text);
+
+      image_element.src = image_path;
+      image_element.setAttribute('class', 'w-50 me-auto');
+
+      // Add name, position & image to column div element
+      div.appendChild(name_element);
+      div.innerHTML += `${position}<br/>`;
+      div.appendChild(image_element);
+
+      // Append to people table
+      document.querySelector('#people').append(div);
+    }
+
+    /**
+     * On DOM load, loop through all people and add them to the table of people
+     */
+    function load() {
+      for (var i = 0; i < people.length; i++) {
+        add_person(...people[i])
+      }
+    }
+
+    // When DOM loads, call load function
+    document.addEventListener('DOMContentLoaded', load)
+
+  </script>
+</head>
+
+<div class="row" id="people">
+</div>

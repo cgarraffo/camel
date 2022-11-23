@@ -1,5 +1,5 @@
 ---
-icon: fas fa-stream
+icon: far fa-folder
 order: 3
 ---
 
