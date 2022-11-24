@@ -1,0 +1,33 @@
+/*
+  Page-specific style
+*/
+
+.column {
+  float: left;
+  width: 33%;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.row::after {
+  clear: both;
+}
+
+.img_box {
+  display: flexbox;
+  background: white;
+  border: 2px solid rgba(222,222,222,0.7);
+}
+
+@media screen and (max-width: 2000px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
