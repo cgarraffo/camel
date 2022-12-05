@@ -57,14 +57,15 @@ order: 2
       div.setAttribute('class', 'column');
 
       name_element.appendChild(name_text);
+      name_element.setAttribute('class', 'name');
 
       image_element.src = image_path;
       image_element.setAttribute('class', 'w-50 me-auto');
 
       /** Add name, position & image to column div element */
-      div.appendChild(name_element);
-      div.innerHTML += `${position}<br/>`;
       div.appendChild(image_element);
+      div.appendChild(name_element);
+      div.innerHTML += `${position}<p/>`;
 
       /** Append to people table */
       document.querySelector('#people').append(div);
