@@ -1,7 +1,8 @@
 /*
-  Page-specific style
+  People-specific style
 */
 
+/* Columns format, width can be used to change the default number of columns, 33% would correspond to 3 columns */
 .column {
   float: left;
   width: 33%;
@@ -10,22 +11,32 @@
   text-align: center;
 }
 
+/* Used to properly format grid layout */
 .row::after {
   clear: both;
 }
 
+
+/* Not currently used, but can be used to put a boarder around images & restrict the size of images */
 .img_box {
   display: flexbox;
   background: white;
   border: 2px solid rgba(222,222,222,0.7);
 }
 
+/* Used to remove the margin around the name heading for better grouping */
+.name {
+  margin: 0 !important;
+}
+
+/* Reduces the number of columns to 2 when horizontal pixel count falls below 2000 */
 @media screen and (max-width: 2000px) {
   .column {
     width: 50%;
   }
 }
 
+/* Reduces the number of columns to 1 when horizontal pixel count falls below 600 */
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
