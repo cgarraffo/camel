@@ -5,9 +5,9 @@
 /* Columns format, width can be used to change the default number of columns, 33% would correspond to 3 columns */
 .column {
   float: left;
-  width: 33%;
-  padding-left: 10px;
-  padding-right: 10px;
+  width: 25%;
+  padding-left: 2px;
+  padding-right: 2px;
   text-align: center;
 }
 
@@ -29,12 +29,6 @@
   margin: 0 !important;
 }
 
-/* Reduces the number of columns to 2 when horizontal pixel count falls below 2000 */
-@media screen and (max-width: 2000px) {
-  .column {
-    width: 50%;
-  }
-}
 
 /* Reduces the number of columns to 1 when horizontal pixel count falls below 600 */
 @media screen and (max-width: 600px) {
