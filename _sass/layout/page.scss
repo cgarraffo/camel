@@ -17,12 +17,6 @@
 }
 
 
-/* Not currently used, but can be used to put a boarder around images & restrict the size of images */
-.img_box {
-  display: flexbox;
-  background: white;
-  border: 2px solid rgba(222,222,222,0.7);
-}
 
 /* Used to remove the margin around the name heading for better grouping */
 .name {
