@@ -4,7 +4,7 @@ order: 4
 ---
 
 ## Institute for Applied Computational Science
-![Institute for Applied Computational Science](/assets/images/IACS-Logo.png){: .w-5 .normal .img_box }
+![Institute for Applied Computational Science](/assets/images/IACS-Logo.png){: .w-2 .normal .img_box }
 
 
 ## Bunker Hill Community College
