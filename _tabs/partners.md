@@ -9,3 +9,6 @@ order: 4
 
 ## Bunker Hill Community College
 ![Bunker Hill Community College](/assets/images/BHCC_Logo_redbl.webp){: .w-5 .normal .img_box }
+
+## Event Horizon Telescope
+![Event Horizon Telescope](/assets/images/EHT.png){: .w-5 .normal .img_box }
