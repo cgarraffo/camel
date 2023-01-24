@@ -9,10 +9,10 @@ order: 3
 ### The Parametrization of M87 Black Hole: A Deep Learning Approach with EHT Data.
 Tao Tsui, Pavlos Protopapas, Cecilia Garraffo, Christian Framm and Sheperd Doeleman
 
-### Modeling the scattering in Sgr A* using neural networks
+### Modeling the scattering in Sgr A* using neural networks (Accepting Students - Interns - Postdocs)
 Paul Tiede, Lindy Blackburn
 
-### Modeling noise due to accretion physics
+### Modeling noise due to accretion physics (Accepting Students - Interns - Postdocs)
 Paul Tiede, Lindy Blackburn
 
 ### Characterization of black holes from EHT images using deep learning
@@ -44,10 +44,7 @@ Cecilia Garraffo, Pavlos Protopapas, Jeremy J. Drake, Ignacio Becker and Phillip
 
 ## CfA Proposals - accepting collaboration:
 
-### Probing the BH accretion from GRMHD simulations using the Machine learning approach
-### PI: Razieh Emami
-
-In this project, we aim to use some novel machine learning (ML) approach to probe the accretion state around the SMBHs using the un-polarized and the polarized BH images. It would be very intriguing to consider this problem both in the image and the visibility space and using the EHT data.
+## Science: 
 
 ### Probing the main drivers of the galaxy shape rotation over the cosmic time using Machine learning
 ### PI: Razieh Emami
@@ -61,22 +58,39 @@ Recent studies show that MW galaxies from the cosmological simulations of the TN
 As we understand it today, most of the matter in the Universe is dark, i.e. it only interacts with anything else via gravity. On the other hand, everything that we see is normal, or baryonic, matter. In galaxy clusters, large groups of thousands of galaxies, the space between galaxies is filled with a plasma (ionised gas). This plasma does know about the gravity of the dark matter in the region, but also experiences other physics, like cooling and heating, which are far more complicated. We can test different models of dark matter by looking at the statistics of galaxy clusters. Simulating large numbers of these with all the gas physics is currently computationally infeasible. Instead, we have large suites of dark-matter-only simulations, which only have to solve the equation of gravity, and then smaller simulations which simulate all the gas physics as well but don't have enough statistics for cosmology. I would like to teach ML to "learn" from the smaller simulations how to "paint" gas onto the dark-matter-only simulations. 
 My input is 2D maps of the projected dark-matter quantities on the one hand, and corresponding 2D maps of the gas on the other. After training, the model should be able to read in other maps of dark matter, and predict what the gas would look like (i.e. what telescopes would see). Currently I am struggling with getting the neural net to capture the smallest, brightest regions.
 
-### Galileo Project
-
-### PI: Avi Loeb
-Developing sensor systems and software to detect, track and analyze UAP and `Oumuamua-like ISOs, whatever they maybe, using automated detection and tracking of aerial anomalies
-
 ### Classifying Variable Stars from SDSS-IV
 
 ### PI: Paul Green
 
 The SDSS-IV Time Domain Spectroscopic Survey (TDSS) obtained SDSS optical spectroscopy for about 11000 variable stars.  We have characterized numerous variability attributes from ZTF light curves, absolute magnitudes and Galactic position from Gaia, and the spectral type from SDSS.  We want to classify as many variables into physical types as possible.  We are developing training sets from the literature and from our own visual inspection.  About half the stars show periodic variability and are most easily classified.  Non-periodic variable stars may be irregular, poorly-sampled, or exotic.
 
+
+### Probing the BH accretion from GRMHD simulations using the Machine learning approach
+### PI: Razieh Emami
+
+In this project, we aim to use some novel machine learning (ML) approach to probe the accretion state around the SMBHs using the un-polarized and the polarized BH images. It would be very intriguing to consider this problem both in the image and the visibility space and using the EHT data.
+
+## Mission Design/enhancement: 
+
+### Galileo Project
+
+### PI: Avi Loeb
+Developing sensor systems and software to detect, track and analyze UAP and `Oumuamua-like ISOs, whatever they maybe, using automated detection and tracking of aerial anomalies
+
+
 ### Reinforcement learning for optical system alignment
 
 ### PI: Qi Feng
 
 The prototype Schwarzschild-Couder Telescope has two mirror dishes with 48 primary mirror panels and 24 secondary. Each panel is controlled with 6 actuators for alignment. A total of 432 input for all actuators controls the alignment with a goal to minimize the optical PSF (characterized by the rms of the images of stars). This problem is, in principal, suitable for reinforcement learning, as the reward is well-defined. However, the control/action space is very large and continuous, which could be a problem due to the inefficiency of reinforcement learning algorithms. It would be nice to discuss the possibility of applying reinforcement learning to the alignment problem and perform some proof-of-concept simulations to verify the feasibility. 
+
+
+### Detecting the most distant galaxy groups with the Line Emission Mapper
+### PI: Gerrit Schellenberger
+
+Most of the galaxies in the universe are found in galaxy groups, which are gravitationally bound structures not only containing the galaxies, but also a hot, X-ray emitting gas. Galaxy groups started to form in the universe when its size was only a third or even smaller. While galaxy groups are often assumed to have a fine-tuned balance of the gravitational potential and the thermal pressure of the hot gas, the effects of star formation in the galaxies, or outbursts from the central supermassive black hole can harm this equilibrium. The amount of these non-gravitational effects is not yet understood. Since star formation is known to be much more dominant in very distant galaxies, these effects will also be imprinted in distant galaxy groups. However, only a few very distant galaxy groups are even known so far due to the lack of instrumental sensitivity. 
+The Line Emission Mapper (LEM) probe mission concept will have exceptionally high spectral resolution, and is able to resolve individual emission lines from these distant galaxy groups. This will lead to many newly detected groups, especially at higher redshift. Machine learning techniques are uniquely suited to reliably detect these emission lines, which are shifted according to the distance of the object. 
+A ML algorithm should be designed and trained through simulated mock observations to detect the known emission lines which are shifted to unknown energies due to the cosmological redshift. The individual lines are not clearly visible, but a stacked set of lines should be used to identify the object more significantly. Furthermore, the spatial information - the expected extent of the galaxy group - should be included when defining a detection. Complications arise when including the Milky Way foreground emission, or bright (continuum) point sources at the centers of the galaxy groups resembling the central AGNs. The goal is to define a realistic detection probability and false detection rate depending on galaxy group parameters such as its distance and mass. 
 
 ### Calculation of Air Mass Factor for Air Quality of observations using UV-VIS spectrometers
 
@@ -87,14 +101,6 @@ Using remote sensing from satellites we can prove the Earth's atmosphere to gain
 2. They rely quite often on prior information from weather and chemistry atmospheric models.
 
 The goal of this project is to speed up/substitute the AMF calculation and become more independent of prior model information by training a model of AMF(s)/atmospheric scattering properties on geophysical values retrieved from multiple satellites and spectral ranges.
-
-### Detecting the most distant galaxy groups with the Line Emission Mapper
-### PI: Gerrit Schellenberger
-
-Most of the galaxies in the universe are found in galaxy groups, which are gravitationally bound structures not only containing the galaxies, but also a hot, X-ray emitting gas. Galaxy groups started to form in the universe when its size was only a third or even smaller. While galaxy groups are often assumed to have a fine-tuned balance of the gravitational potential and the thermal pressure of the hot gas, the effects of star formation in the galaxies, or outbursts from the central supermassive black hole can harm this equilibrium. The amount of these non-gravitational effects is not yet understood. Since star formation is known to be much more dominant in very distant galaxies, these effects will also be imprinted in distant galaxy groups. However, only a few very distant galaxy groups are even known so far due to the lack of instrumental sensitivity. 
-The Line Emission Mapper (LEM) probe mission concept will have exceptionally high spectral resolution, and is able to resolve individual emission lines from these distant galaxy groups. This will lead to many newly detected groups, especially at higher redshift. Machine learning techniques are uniquely suited to reliably detect these emission lines, which are shifted according to the distance of the object. 
-A ML algorithm should be designed and trained through simulated mock observations to detect the known emission lines which are shifted to unknown energies due to the cosmological redshift. The individual lines are not clearly visible, but a stacked set of lines should be used to identify the object more significantly. Furthermore, the spatial information - the expected extent of the galaxy group - should be included when defining a detection. Complications arise when including the Milky Way foreground emission, or bright (continuum) point sources at the centers of the galaxy groups resembling the central AGNs. The goal is to define a realistic detection probability and false detection rate depending on galaxy group parameters such as its distance and mass. 
-
 
 ### DSCOVR Faraday Cup error mitigation
 ### PI: Michael Stevens
