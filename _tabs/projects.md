@@ -7,7 +7,6 @@ order: 3
 ## Event Horizon Telescope - IACS projects:
 
 The Parametrization of M87 Black Hole: A Deep Learning Approach with EHT Data.
-
 Tao Tsui, Pavlos Protopapas, Cecilia Garraffo, Christian Framm and Sheperd Doeleman
 
 Modeling the scattering in Sgr A* using neural networks
@@ -59,7 +58,7 @@ My input is 2D maps of the projected dark-matter quantities on the one hand, and
 
 ## Galileo Project
 
-### Avi Loeb
+### PI: Avi Loeb
 Developing sensor systems and software to detect, track and analyze UAP and `Oumuamua-like ISOs, whatever they maybe, using automated detection and tracking of aerial anomalies
 
 ## Classifying Variable Stars from SDSS-IV
