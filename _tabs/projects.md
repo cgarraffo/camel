@@ -10,18 +10,16 @@ order: 3
 Tao Tsui, Pavlos Protopapas, Cecilia Garraffo, Christian Framm and Sheperd Doeleman
 
 ### Modeling the scattering in Sgr A* using neural networks (Accepting Students - Interns - Postdocs)
-Paul Tiede, Lindy Blackburn
+Paul Tiede, Lindy Blackburn, Pavlos Protopapas and Cecilia Garraffo
 
 ### Modeling noise due to accretion physics (Accepting Students - Interns - Postdocs)
-Paul Tiede, Lindy Blackburn
+Paul Tiede, Lindy Blackburn, Cecilia Garraffo and Pavlos Protopapas
 
 ### Characterization of black holes from EHT images using deep learning
 Keerthi Kunnumkai, Cecilia Garraffo and Pavlos Protopapas
 
 ## CfA - Southampton projects:
 
-### Unsupervised Machine Learning for the Classification of Astrophysical X-ray Sources
-Victor Samuel Perez-Diaz, Juean Rafael Martinez-Galarza, Alexander Caicedo-Dorado and Raffaele D'Abrusco
 
 ### Mapping X-ray variability curves]{Mapping the X-ray variability curves of GRS 1915+105 with machine learning
 Benjamin J. Ricketts, James F. Steiner, Cecilia Garraffo and Ronald A. Remillard
@@ -41,6 +39,14 @@ Augusto T. Chantada, Susana J. Landau, Pavlos Protopapas, Claudia G. Scoccola an
 
 ### StelNet: Higherarchical Neural Netwoirk for Automatic Inference in Stellar Characterization
 Cecilia Garraffo, Pavlos Protopapas, Jeremy J. Drake, Ignacio Becker and Phillip Cargile
+
+## CfA Projects:
+
+### Unsupervised Machine Learning for the Classification of Astrophysical X-ray Sources
+Victor Samuel Perez-Diaz, Juan Rafael Martinez-Galarza, Alexander Caicedo-Dorado and Raffaele D'Abrusco
+
+### Cross-matching Gaia and Chandra with Machine Learning
+Victor Samuel Perez-Diaz, Juan Rafael Martinez-Galarza and Raffaele D'Abrusco
 
 ## CfA Proposals - accepting collaboration:
 
