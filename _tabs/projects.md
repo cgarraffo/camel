@@ -70,7 +70,7 @@ The SDSS-IV Time Domain Spectroscopic Survey (TDSS) obtained SDSS optical spectr
 
 In this project, we aim to use some novel machine learning (ML) approach to probe the accretion state around the SMBHs using the un-polarized and the polarized BH images. It would be very intriguing to consider this problem both in the image and the visibility space and using the EHT data.
 
-## Mission Design/enhancement: 
+## Mission design/enhancement: 
 
 ### Galileo Project
 
