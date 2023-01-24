@@ -109,7 +109,7 @@ Using remote sensing from satellites we can prove the Earth's atmosphere to gain
 
 The goal of this project is to speed up/substitute the AMF calculation and become more independent of prior model information by training a model of AMF(s)/atmospheric scattering properties on geophysical values retrieved from multiple satellites and spectral ranges.
 
-![Air Quality](/assets/images/GG.png){: .w-5 .normal .img_box }
+![Air Quality](/assets/images/GGA.jpg){: .w-5 .normal .img_box }
 
 ### DSCOVR Faraday Cup error mitigation
 ### PI: Michael Stevens
