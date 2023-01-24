@@ -7,9 +7,11 @@ order: 3
 ## Event Horizon Telescope - IACS projects:
 
 The Parametrization of M87 Black Hole: A Deep Learning Approach with EHT Data.
+
 Tao Tsui, Pavlos Protopapas, Cecilia Garraffo, Christian Framm and Sheperd Doeleman
 
 Modeling the scattering in Sgr A* using neural networks
+
 Paul Tiede, Lindy Blackburn
 
 Modeling noise due to accretion physics
