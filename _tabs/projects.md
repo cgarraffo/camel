@@ -4,22 +4,21 @@ order: 3
 ---
 
 [//]: # (Past, current, proposed)
-## Event Horizon Telescope - IACS projects:
+# Event Horizon Telescope - IACS projects:
 
-The Parametrization of M87 Black Hole: A Deep Learning Approach with EHT Data.
-Tao Tsui, Pavlos Protopapas, Cecilia Garraffo, Christian Framm and Sheperd Doeleman
+## The Parametrization of M87 Black Hole: A Deep Learning Approach with EHT Data.
+### Tao Tsui, Pavlos Protopapas, Cecilia Garraffo, Christian Framm and Sheperd Doeleman
 
-Modeling the scattering in Sgr A* using neural networks
+## Modeling the scattering in Sgr A* using neural networks
+### Paul Tiede, Lindy Blackburn
 
-Paul Tiede, Lindy Blackburn
+## Modeling noise due to accretion physics
+### Paul Tiede, Lindy Blackburn
 
-Modeling noise due to accretion physics
-Paul Tiede, Lindy Blackburn
+## Characterization of black holes from EHT images using deep learning
+### Keerthi Kunnumkai, Cecilia Garraffo and Pavlos Protopapas
 
-Characterization of black holes from EHT images using deep learning
-Keerthi Kunnumkai, Cecilia Garraffo and Pavlos Protopapas
-
-## CfA - Southampton projects:
+# CfA - Southampton projects:
 
 Unsupervised Machine Learning for the Classification of Astrophysical X-ray Sources
 Victor Samuel Perez-Diaz, Juean Rafael Martinez-Galarza, Alexander Caicedo-Dorado and Raffaele D'Abrusco
