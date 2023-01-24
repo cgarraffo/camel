@@ -9,6 +9,8 @@ order: 3
 ### The Parametrization of M87 Black Hole: A Deep Learning Approach with EHT Data.
 Tao Tsui, Pavlos Protopapas, Cecilia Garraffo, Christian Framm and Sheperd Doeleman
 
+![Event Horizon Telescope](/assets/images/EHT.png){: .w-5 .normal .img_box }
+
 ### Modeling the scattering in Sgr A* using neural networks (Accepting Students - Interns - Postdocs)
 Paul Tiede, Lindy Blackburn, Pavlos Protopapas and Cecilia Garraffo
 
