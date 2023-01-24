@@ -9,8 +9,6 @@ order: 3
 ### The Parametrization of M87 Black Hole: A Deep Learning Approach with EHT Data.
 Tao Tsui, Pavlos Protopapas, Cecilia Garraffo, Christian Framm and Sheperd Doeleman
 
-![Event Horizon Telescope](/assets/images/EHT.png){: .w-5 .normal .img_box }
-
 ### Modeling the scattering in Sgr A* using neural networks (Accepting Students - Interns - Postdocs)
 Paul Tiede, Lindy Blackburn, Pavlos Protopapas and Cecilia Garraffo
 
@@ -72,6 +70,7 @@ My input is 2D maps of the projected dark-matter quantities on the one hand, and
 
 The SDSS-IV Time Domain Spectroscopic Survey (TDSS) obtained SDSS optical spectroscopy for about 11000 variable stars.  We have characterized numerous variability attributes from ZTF light curves, absolute magnitudes and Galactic position from Gaia, and the spectral type from SDSS.  We want to classify as many variables into physical types as possible.  We are developing training sets from the literature and from our own visual inspection.  About half the stars show periodic variability and are most easily classified.  Non-periodic variable stars may be irregular, poorly-sampled, or exotic.
 
+![Classifying Variable Stars](/assets/images/PaulGreen.png){: .w-5 .normal .img_box }
 
 ### Probing the BH accretion from GRMHD simulations using the Machine learning approach
 ### PI: Razieh Emami
@@ -109,6 +108,8 @@ Using remote sensing from satellites we can prove the Earth's atmosphere to gain
 2. They rely quite often on prior information from weather and chemistry atmospheric models.
 
 The goal of this project is to speed up/substitute the AMF calculation and become more independent of prior model information by training a model of AMF(s)/atmospheric scattering properties on geophysical values retrieved from multiple satellites and spectral ranges.
+
+![Air Quality](/assets/images/GG.png){: .w-5 .normal .img_box }
 
 ### DSCOVR Faraday Cup error mitigation
 ### PI: Michael Stevens
