@@ -3,7 +3,7 @@ icon: fas fa-folder
 order: 2
 ---
 
-## New CAMeL paper:
+## CAMeL paper:
 
 ![Ben's paper](/assets/images/Benspaper.png){: .w-5 .normal .img_box }
 
