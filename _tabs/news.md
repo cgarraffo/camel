@@ -7,7 +7,7 @@ order: 2
 
 ![Ben's paper](/assets/images/Benspaper.png){: .w-5 .normal .img_box }
 
-[Ben's paper](https://arxiv.org/abs/2301.10467)
+[https://arxiv.org/abs/2301.10467](https://arxiv.org/abs/2301.10467)
 
 ## Congratulations Thaddaeus Kiker!
 
