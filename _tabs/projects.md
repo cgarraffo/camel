@@ -1,6 +1,6 @@
 ---
 icon: fas fa-folder
-order: 3
+order: 6
 ---
 
 [//]: # (Past, current, proposed)
