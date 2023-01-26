@@ -1,6 +1,6 @@
 ---
 icon: fas fa-folder
-order: 6
+order: 2
 ---
 
 ## Congratulations Thaddaeus Kiker!
