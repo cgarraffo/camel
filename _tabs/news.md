@@ -5,7 +5,7 @@ order: 2
 
 ## New CAMeL paper:
 
-![Ben's paper](https://arxiv.org/abs/2301.10467){: .w-5 .normal .img_box }
+![Ben's paper](/assets/images/Benspaper.png){: .w-5 .normal .img_box }
 
 [Ben's paper](https://arxiv.org/abs/2301.10467)
 
