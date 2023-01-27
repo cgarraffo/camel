@@ -3,7 +3,9 @@ icon: fas fa-folder
 order: 2
 ---
 
-## CAMeL paper:
+## CAMeL papers:
+
+![Denis' paper](/assets/images/Denispaper.png){: .w-5 .normal .img_box }
 
 ![Ben's paper](/assets/images/Benspaper.png){: .w-5 .normal .img_box }
 
