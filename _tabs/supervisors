@@ -18,7 +18,7 @@ order: 5
       ['James F. Steiner',           'JackSteiner_face.jpeg',                        'Astrophysicist - CfA'],
       ['Joshua Wing',                'JoshWing.jpg',                        'Astrophysicist - CfA'],
       ['Carol Cuesta Lazaro',                'CarolCuestaLazaro.jpeg',                        'Fellow - CfA'],
-      ['Mansavita Joshi',           '',    'Northeastern University']
+      ['Manasvita Joshi',           '',    'Northeastern University']
    ];
 
     /**
