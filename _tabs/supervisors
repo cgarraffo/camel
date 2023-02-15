@@ -17,8 +17,8 @@ order: 5
       ['Phillip Cargile',            'PhillCargile.jpeg',       'Astrophysicist - CfA'],
       ['James F. Steiner',           'JackSteiner_face.jpeg',                        'Astrophysicist - CfA'],
       ['Joshua Wing',                'JoshWing.jpg',                        'Astrophysicist - CfA'],
-      ['Carol Cuesta Lazaro',                'CarolCuestaLazaro.jpg',                        'Fellow - CfA'],
-      ['Mansavita Joshi',           '',    'Northeastern University'],
+      ['Carol Cuesta Lazaro',                'CarolCuestaLazaro.jpeg',                        'Fellow - CfA'],
+      ['Mansavita Joshi',           '',    'Northeastern University']
    ];
 
     /**
