@@ -5,6 +5,8 @@ order: 2
 
 ## CAMeL papers:
 
+![Augusto's paper](/assets/images/Augustopaper.png){: .w-5 .normal .img_box }
+
 ![Denis' paper](/assets/images/DenisPaper.png){: .w-5 .normal .img_box }
 
 ![Ben's paper](/assets/images/Benspaper.png){: .w-5 .normal .img_box }
