@@ -1,6 +1,6 @@
 ---
 icon: fas fa-globe
-order: 5
+order: 7
 ---
 
 ![Event Horizon Telescope](/assets/images/EHT.png){: .w-5 .normal .img_box }
