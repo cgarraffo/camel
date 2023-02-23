@@ -15,6 +15,6 @@ order: 7
 
 
 
-![Northeastern University](/assets/images/Northeastern-logo.png){: .w-5 .normal .img_box }
+![Northeastern University](/assets/images/Northeastern.pdf){: .w-5 .normal .img_box }
 
 ![IAIFI](/assets/images/IAIFI.png){: .w-5 .normal .img_box }
