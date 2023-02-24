@@ -14,6 +14,6 @@ order: 7
 ![Bunker Hill Community College](/assets/images/BHCC.png){: .w-5 .normal .img_box }
 
 
-![Northeastern University](/assets/images/Northeastern-logo.png){: .w-5 .normal .img_box }
+![Northeastern University](/assets/images/Notheastern.pdf){: .w-5 .normal .img_box }
 
 ![IAIFI](/assets/images/IAIFI.png){: .w-5 .normal .img_box }
